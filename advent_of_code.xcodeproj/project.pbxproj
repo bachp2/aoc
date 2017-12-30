@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420918331FF5B35B00920BB2 /* day9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 420918321FF5B35B00920BB2 /* day9.cpp */; };
+		420918371FF6171B00920BB2 /* day10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 420918361FF6171B00920BB2 /* day10.cpp */; };
+		4223E31C1FF332D700B9DDEB /* day7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4223E31B1FF332D700B9DDEB /* day7.cpp */; };
+		4250ECB71FF15F83004988AD /* day5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4250ECB61FF15F83004988AD /* day5.cpp */; };
+		4250ECBB1FF1633E004988AD /* day6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4250ECBA1FF1633E004988AD /* day6.cpp */; };
 		4252B1CC1FEF21CA006141EC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4252B1CB1FEF21CA006141EC /* main.cpp */; };
+		4252B1D41FEF4F7E006141EC /* day1-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4252B1D21FEF4F7E006141EC /* day1-4.cpp */; };
+		42CD43351FF582B8007982B0 /* day8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42CD43341FF582B8007982B0 /* day8.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		420918321FF5B35B00920BB2 /* day9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day9.cpp; sourceTree = "<group>"; };
+		420918341FF5F4E000920BB2 /* day9_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day9_input.txt; sourceTree = "<group>"; };
+		420918351FF5F51A00920BB2 /* day9_test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day9_test.txt; sourceTree = "<group>"; };
+		420918361FF6171B00920BB2 /* day10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day10.cpp; sourceTree = "<group>"; };
+		4223E31B1FF332D700B9DDEB /* day7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day7.cpp; sourceTree = "<group>"; };
+		4223E31D1FF3624E00B9DDEB /* input_day7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_day7.txt; sourceTree = "<group>"; };
+		4223E31E1FF364F600B9DDEB /* simplified_input_day7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = simplified_input_day7.txt; sourceTree = "<group>"; };
+		4236A76A1FF47B150060176E /* day7test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day7test.txt; sourceTree = "<group>"; };
+		4250ECB51FF0A4F7004988AD /* input_day4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_day4.txt; sourceTree = "<group>"; };
+		4250ECB61FF15F83004988AD /* day5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day5.cpp; sourceTree = "<group>"; };
+		4250ECB91FF16032004988AD /* input_day5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_day5.txt; sourceTree = "<group>"; };
+		4250ECBA1FF1633E004988AD /* day6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day6.cpp; sourceTree = "<group>"; };
+		4250ECBC1FF16517004988AD /* input_day6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_day6.txt; sourceTree = "<group>"; };
 		4252B1C81FEF21CA006141EC /* advent_of_code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = advent_of_code; sourceTree = BUILT_PRODUCTS_DIR; };
 		4252B1CB1FEF21CA006141EC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4252B1D21FEF4F7E006141EC /* day1-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "day1-4.cpp"; sourceTree = "<group>"; };
+		4252B1D51FEF51FE006141EC /* aoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aoc.h; sourceTree = "<group>"; };
+		4252B1D91FEF5514006141EC /* spreadsheet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = spreadsheet.txt; sourceTree = "<group>"; };
+		42CD43341FF582B8007982B0 /* day8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day8.cpp; sourceTree = "<group>"; };
+		42CD43361FF583DA007982B0 /* day8_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day8_input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,24 @@
 			isa = PBXGroup;
 			children = (
 				4252B1CB1FEF21CA006141EC /* main.cpp */,
+				4252B1D21FEF4F7E006141EC /* day1-4.cpp */,
+				4252B1D51FEF51FE006141EC /* aoc.h */,
+				4252B1D91FEF5514006141EC /* spreadsheet.txt */,
+				4250ECB51FF0A4F7004988AD /* input_day4.txt */,
+				4250ECB61FF15F83004988AD /* day5.cpp */,
+				4250ECB91FF16032004988AD /* input_day5.txt */,
+				4250ECBA1FF1633E004988AD /* day6.cpp */,
+				4250ECBC1FF16517004988AD /* input_day6.txt */,
+				4223E31B1FF332D700B9DDEB /* day7.cpp */,
+				4223E31D1FF3624E00B9DDEB /* input_day7.txt */,
+				4223E31E1FF364F600B9DDEB /* simplified_input_day7.txt */,
+				4236A76A1FF47B150060176E /* day7test.txt */,
+				42CD43341FF582B8007982B0 /* day8.cpp */,
+				42CD43361FF583DA007982B0 /* day8_input.txt */,
+				420918321FF5B35B00920BB2 /* day9.cpp */,
+				420918341FF5F4E000920BB2 /* day9_input.txt */,
+				420918351FF5F51A00920BB2 /* day9_test.txt */,
+				420918361FF6171B00920BB2 /* day10.cpp */,
 			);
 			path = advent_of_code;
 			sourceTree = "<group>";
@@ -119,7 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4252B1D41FEF4F7E006141EC /* day1-4.cpp in Sources */,
+				420918371FF6171B00920BB2 /* day10.cpp in Sources */,
+				420918331FF5B35B00920BB2 /* day9.cpp in Sources */,
+				4250ECBB1FF1633E004988AD /* day6.cpp in Sources */,
 				4252B1CC1FEF21CA006141EC /* main.cpp in Sources */,
+				4223E31C1FF332D700B9DDEB /* day7.cpp in Sources */,
+				4250ECB71FF15F83004988AD /* day5.cpp in Sources */,
+				42CD43351FF582B8007982B0 /* day8.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
